@@ -84,7 +84,7 @@ namespace AgarioClone
 						if (foodDistance < minDistance)
 						{
 							minDistance = foodDistance;
-							botComponent.FoodTarget = chunks[0].FoodPositions[i].GetPosition();
+							botComponent.FoodTarget = chunks[randomChunk].FoodPositions[i].GetPosition();
 						}
 					}
 				}
